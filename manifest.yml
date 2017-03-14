@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: yho-cloudant-us
+  host: yho-cloudant-us
+  disk_quota: 1024M
+  services:
+  - yho-cloudant-us-cloudantNoSQLDB
